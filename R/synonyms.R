@@ -2,7 +2,7 @@ synonyms <- function(name = NULL,
                      authority = c("itis", "ncbi", "col", "tpl",
                                          "gbif", "fb", "slb", "wd"),
                      collect = TRUE,
-                     db = td_connect()){
+                     db = taxald_db()){
   
   
 

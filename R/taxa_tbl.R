@@ -11,7 +11,7 @@ taxa_tbl <- function(
   authority = c("itis", "ncbi", "col", "tpl",
                 "gbif", "fb", "slb", "wd"), 
   schema = c("hierarchy", "taxonid", "synonyms", "common", "long"),
-  db = td_connect()){
+  db = taxald_db()){
   
   authority <- match.arg(authority)
   schema <- match.arg(schema)
